@@ -1,11 +1,12 @@
 {
   "name": "orchy-angular-typescript-template",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --output-hashing=none && cp angular-mfe.js ./dist",
-    "watch": "ng build --watch --configuration development",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "ng test"
   },
   "private": true,
@@ -19,22 +20,25 @@
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
     "@orchy-mfe/spa-adapter": "^0.1.1",
-    "rxjs": "~7.5.0",
-    "tslib": "^2.3.0",
+    "rxjs": "~7.5.7",
+    "tslib": "^2.4.1",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.0.0",
     "@angular/cli": "~15.0.0",
     "@angular/compiler-cli": "^15.0.0",
+    "@nitedani/vite-plugin-angular": "^14.3.29",
     "@orchy-mfe/models": "^0.2.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.1.0",
+    "karma": "~6.4.1",
+    "karma-chrome-launcher": "~3.1.1",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.8.2"
+    "rollup-plugin-visualizer": "^5.8.3",
+    "typescript": "~4.9.3",
+    "vite": "^3.2.4"
   }
 }
