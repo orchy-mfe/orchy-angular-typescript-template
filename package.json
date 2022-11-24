@@ -28,7 +28,7 @@
     "@angular-devkit/build-angular": "^15.0.1",
     "@angular/cli": "~15.0.1",
     "@angular/compiler-cli": "^15.0.1",
-    "@nitedani/vite-plugin-angular": "^14.3.29",
+    "@nitedani/vite-plugin-angular": "^15.0.3",
     "@orchy-mfe/models": "^0.2.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
