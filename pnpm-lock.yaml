@@ -13,7 +13,7 @@ specifiers:
   '@angular/platform-browser-dynamic': ^15.0.2
   '@angular/router': ^15.0.2
   '@nitedani/vite-plugin-angular': ^15.0.3
-  '@orchy-mfe/models': ^0.2.0
+  '@orchy-mfe/models': ^0.3.0
   '@orchy-mfe/spa-adapter': ^0.1.1
   '@types/jasmine': ~4.3.0
   jasmine-core: ~4.5.0
@@ -48,7 +48,7 @@ devDependencies:
   '@angular/cli': 15.0.2
   '@angular/compiler-cli': 15.0.2_nfmjq542a7cmaxn34ttkyemdb4
   '@nitedani/vite-plugin-angular': 15.0.3_fznla2qqyjgk4r43v7dqa22y3m
-  '@orchy-mfe/models': 0.2.0
+  '@orchy-mfe/models': 0.3.0
   '@types/jasmine': 4.3.0
   jasmine-core: 4.5.0
   karma: 6.4.1
@@ -1862,8 +1862,8 @@ packages:
       - supports-color
     dev: true
 
-  /@orchy-mfe/models/0.2.0:
-    resolution: {integrity: sha512-P7O1/xDySmhRjnBKgTOhJg/kh5jnk8I7feSAIDp56S0FHJuA9PVYQrNyjKMPMj9+wiKp5AyXGClA+nJugFSYEg==}
+  /@orchy-mfe/models/0.3.0:
+    resolution: {integrity: sha512-SveY0mqzawNVBmHXV0cAA5Y3eBKoe4LcblkZzWIE/XV6UD9CDDBSdvdJ63Rsofgsry6rSEd6+uMVPZg5JpiEsA==}
     dependencies:
       rxjs: 7.5.7
     dev: true
