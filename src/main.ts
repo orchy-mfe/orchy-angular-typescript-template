@@ -5,14 +5,15 @@ import OrchyMicroFrontend from '@orchy-mfe/spa-adapter';
 import {MicroFrontendProperties} from '@orchy-mfe/models';
 
 import { AppModule } from './app/app.module';
-import { OrchyPropertiesService } from './app/orchy-properties';
+import { MicroFrontendPropertiesProvider } from './providers/micro-frontend-properties-provider';
 
 export class AngularMfe extends OrchyMicroFrontend {
   private app?: NgModuleRef<AppModule>
 
-  async mount(orchyProperties?: MicroFrontendProperties): Promise<void> {
-    OrchyPropertiesService.microfrontendProperties = orchyProperties
-    this.app = await platformBrowserDynamic().bootstrapModule(AppModule)
+  async mount(microFrontendProperties?: MicroFrontendProperties): Promise<void> {
+    this.app = await platformBrowserDynamic(
+      [{ provide: MicroFrontendPropertiesProvider, useValue: microFrontendProperties}]
+    ).bootstrapModule(AppModule)
   }
 
   async unmount(): Promise<void> {

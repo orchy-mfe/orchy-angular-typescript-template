@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { OrchyPropertiesService } from './orchy-properties';
+import { MicroFrontendPropertiesProvider } from '../providers/micro-frontend-properties-provider';
 
 @NgModule({
   declarations: [
@@ -16,9 +16,8 @@ import { OrchyPropertiesService } from './orchy-properties';
   ],
   providers: [{
     provide: APP_BASE_HREF,
-    useFactory: () => {
-      return OrchyPropertiesService.microfrontendProperties?.basePath
-    }
+    useFactory: (microFrontendProperties: MicroFrontendPropertiesProvider) => microFrontendProperties?.basePath,
+    deps: [MicroFrontendPropertiesProvider]
   }],
   bootstrap: [AppComponent]
 })

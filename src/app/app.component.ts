@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { OrchyPropertiesService } from './orchy-properties';
 
 @Component({
   selector: 'angular-mfe',
