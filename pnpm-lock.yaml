@@ -23,7 +23,7 @@ specifiers:
   karma-jasmine: ~5.1.0
   karma-jasmine-html-reporter: ~2.0.0
   rollup-plugin-visualizer: ^5.8.3
-  rxjs: ~7.6.0
+  rxjs: ~7.8.0
   tslib: ^2.4.1
   typescript: ~4.8.4
   vite: ^4.0.1
@@ -31,15 +31,15 @@ specifiers:
 
 dependencies:
   '@angular/animations': 15.0.4_@angular+core@15.0.4
-  '@angular/common': 15.0.4_frjdqkvusib5b4mkuuwmysf3r4
+  '@angular/common': 15.0.4_2kx3gifw2v5d4j22ydwztvu5ey
   '@angular/compiler': 15.0.4_@angular+core@15.0.4
-  '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
-  '@angular/forms': 15.0.4_3a2u7xxmt22ynjuprkcysdnbqa
+  '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
+  '@angular/forms': 15.0.4_xkplghntscucsztvq3p7ejhl3e
   '@angular/platform-browser': 15.0.4_bwwplqn6fknm3semymfqlvw5bm
   '@angular/platform-browser-dynamic': 15.0.4_hnn6v3m7xpfwy5wugozvutqsyi
-  '@angular/router': 15.0.4_3a2u7xxmt22ynjuprkcysdnbqa
+  '@angular/router': 15.0.4_xkplghntscucsztvq3p7ejhl3e
   '@orchy-mfe/spa-adapter': 0.1.1
-  rxjs: 7.6.0
+  rxjs: 7.8.0
   tslib: 2.4.1
   zone.js: 0.12.0
 
@@ -281,7 +281,7 @@ packages:
     peerDependencies:
       '@angular/core': 15.0.4
     dependencies:
-      '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
+      '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
       tslib: 2.4.1
     dev: false
 
@@ -314,15 +314,15 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/common/15.0.4_frjdqkvusib5b4mkuuwmysf3r4:
+  /@angular/common/15.0.4_2kx3gifw2v5d4j22ydwztvu5ey:
     resolution: {integrity: sha512-0x/2IhaetJqfXMeQ4DlRnOTzGWD0OvOeKORyi0q7WXPxSoD9MUezQHGmzkc5lK9tDYE9cNYyQfkUBcbJT/k6MA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
       '@angular/core': 15.0.4
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
-      rxjs: 7.6.0
+      '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
+      rxjs: 7.8.0
       tslib: 2.4.1
     dev: false
 
@@ -359,21 +359,21 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
+      '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
       tslib: 2.4.1
 
-  /@angular/core/15.0.4_rxjs@7.6.0+zone.js@0.12.0:
+  /@angular/core/15.0.4_rxjs@7.8.0+zone.js@0.12.0:
     resolution: {integrity: sha512-Xf8Nuu0iM/VjQHPS4A0jufqTYZCfiGqc0iAD7j9zM3TD6caQ3OP4mxXVYYTpIG+APKel38+Gol8cpQB/8PVbqQ==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.11.4 || ~0.12.0
     dependencies:
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       tslib: 2.4.1
       zone.js: 0.12.0
 
-  /@angular/forms/15.0.4_3a2u7xxmt22ynjuprkcysdnbqa:
+  /@angular/forms/15.0.4_xkplghntscucsztvq3p7ejhl3e:
     resolution: {integrity: sha512-3Ft/p2ug/zp2p0g2rhLq9v/5F1G11xa+YujAKL5kOFa0zUoroDG6n4b6VEcsGWmDE9NR7Vkiys9rHckiJUluHg==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
@@ -382,10 +382,10 @@ packages:
       '@angular/platform-browser': 15.0.4
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 15.0.4_frjdqkvusib5b4mkuuwmysf3r4
-      '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
+      '@angular/common': 15.0.4_2kx3gifw2v5d4j22ydwztvu5ey
+      '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.0.4_bwwplqn6fknm3semymfqlvw5bm
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       tslib: 2.4.1
     dev: false
 
@@ -398,9 +398,9 @@ packages:
       '@angular/core': 15.0.4
       '@angular/platform-browser': 15.0.4
     dependencies:
-      '@angular/common': 15.0.4_frjdqkvusib5b4mkuuwmysf3r4
+      '@angular/common': 15.0.4_2kx3gifw2v5d4j22ydwztvu5ey
       '@angular/compiler': 15.0.4_@angular+core@15.0.4
-      '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
+      '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.0.4_bwwplqn6fknm3semymfqlvw5bm
       tslib: 2.4.1
     dev: false
@@ -417,12 +417,12 @@ packages:
         optional: true
     dependencies:
       '@angular/animations': 15.0.4_@angular+core@15.0.4
-      '@angular/common': 15.0.4_frjdqkvusib5b4mkuuwmysf3r4
-      '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
+      '@angular/common': 15.0.4_2kx3gifw2v5d4j22ydwztvu5ey
+      '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
       tslib: 2.4.1
     dev: false
 
-  /@angular/router/15.0.4_3a2u7xxmt22ynjuprkcysdnbqa:
+  /@angular/router/15.0.4_xkplghntscucsztvq3p7ejhl3e:
     resolution: {integrity: sha512-6cBUu1kSigORGpWq+Wc3hTLRQcJvtlaZ5OFOIzKGiBEPgezn/AzrWHi/bEccWLZAVFhbUOhcRn9GwudqiqX6+A==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
@@ -431,10 +431,10 @@ packages:
       '@angular/platform-browser': 15.0.4
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 15.0.4_frjdqkvusib5b4mkuuwmysf3r4
-      '@angular/core': 15.0.4_rxjs@7.6.0+zone.js@0.12.0
+      '@angular/common': 15.0.4_2kx3gifw2v5d4j22ydwztvu5ey
+      '@angular/core': 15.0.4_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.0.4_bwwplqn6fknm3semymfqlvw5bm
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       tslib: 2.4.1
     dev: false
 
@@ -2026,7 +2026,7 @@ packages:
   /@orchy-mfe/models/0.3.0:
     resolution: {integrity: sha512-SveY0mqzawNVBmHXV0cAA5Y3eBKoe4LcblkZzWIE/XV6UD9CDDBSdvdJ63Rsofgsry6rSEd6+uMVPZg5JpiEsA==}
     dependencies:
-      rxjs: 7.6.0
+      rxjs: 7.8.0
     dev: true
 
   /@orchy-mfe/spa-adapter/0.1.1:
@@ -4478,7 +4478,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
       through: 2.3.8
@@ -6088,8 +6088,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.6.0:
-    resolution: {integrity: sha512-DDa7d8TFNUalGC9VqXvQ1euWNN7sc63TrUCuM9J998+ViviahMIjKSOU7rfcgFOF+FCD71BhDRv4hrFz+ImDLQ==}
+  /rxjs/7.8.0:
+    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
     dependencies:
       tslib: 2.4.1
 
