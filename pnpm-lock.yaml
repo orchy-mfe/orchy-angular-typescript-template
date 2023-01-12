@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@analogjs/vite-plugin-angular': 0.2.0-alpha.21
+  '@analogjs/vite-plugin-angular': 0.2.0-alpha.22
   '@angular-devkit/build-angular': ^15.1.1
   '@angular/animations': ^15.1.0
   '@angular/cli': ~15.1.1
@@ -44,7 +44,7 @@ dependencies:
   zone.js: 0.12.0
 
 devDependencies:
-  '@analogjs/vite-plugin-angular': 0.2.0-alpha.21_ftmst666zrm6hb2no24ol5wcje
+  '@analogjs/vite-plugin-angular': 0.2.0-alpha.22_ekufwcugukenscfg2p2zsyj6mm
   '@angular-devkit/build-angular': 15.1.1_7kplh36wy54vo3yupbajtw5pby
   '@angular/cli': 15.1.1
   '@angular/compiler-cli': 15.1.0_cw5pxmpaualxc53b5r24ke3psi
@@ -70,17 +70,17 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@analogjs/vite-plugin-angular/0.2.0-alpha.21_ftmst666zrm6hb2no24ol5wcje:
-    resolution: {integrity: sha512-OPqyKgeNY3m2qiylW7qjUQP2gmYgxbdTWDIX88xNecwkoUeAs6h2tiUOCvxw5OZNqJT7Adsk/KNJGmJuTcu4FQ==}
+  /@analogjs/vite-plugin-angular/0.2.0-alpha.22_ekufwcugukenscfg2p2zsyj6mm:
+    resolution: {integrity: sha512-tBW7/Sc/ol4YrMJ0yUkVMjkLrfT8YF79jQmGGFn7CroFLbo2LsgAMpvO82cGyb1t/kNi/QU7OUYKPQbIDaP/3g==}
     peerDependencies:
       '@angular-devkit/build-angular': ^14.0.0 || ^15.0.0
-      '@babel/core': 7.20.2
+      '@babel/core': 7.20.12
       esbuild: 0.14.54
       tslib: 2.4.0
       zone.js: 0.11.8
     dependencies:
       '@angular-devkit/build-angular': 15.1.1_7kplh36wy54vo3yupbajtw5pby
-      '@babel/core': 7.20.2
+      '@babel/core': 7.20.12
       esbuild: 0.14.54
       tslib: 2.4.1
       zone.js: 0.12.0
@@ -500,29 +500,6 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/core/7.20.2:
-    resolution: {integrity: sha512-w7DbG8DtMrJcFOi4VrLm+8QM4az8Mo+PuLBKLp2zrYRCow8W/f9xiXm5sN53C8HksCyDQwCKha9JiDoIyPjT2g==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@ampproject/remapping': 2.2.0
-      '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.20.7
-      '@babel/helper-compilation-targets': 7.20.7_@babel+core@7.20.2
-      '@babel/helper-module-transforms': 7.20.11
-      '@babel/helpers': 7.20.7
-      '@babel/parser': 7.20.7
-      '@babel/template': 7.20.7
-      '@babel/traverse': 7.20.12
-      '@babel/types': 7.20.7
-      convert-source-map: 1.9.0
-      debug: 4.3.4
-      gensync: 1.0.0-beta.2
-      json5: 2.2.3
-      semver: 6.3.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@babel/generator/7.20.7:
     resolution: {integrity: sha512-7wqMOJq8doJMZmP4ApXTzLxSr7+oO2jroJURrVEp6XShrQUObV8Tq/D0NCcoYg2uHqUrjzO0zwBjoYzelxK+sw==}
     engines: {node: '>=6.9.0'}
@@ -569,20 +546,6 @@ packages:
     dependencies:
       '@babel/compat-data': 7.20.10
       '@babel/core': 7.20.12
-      '@babel/helper-validator-option': 7.18.6
-      browserslist: 4.21.4
-      lru-cache: 5.1.1
-      semver: 6.3.0
-    dev: true
-
-  /@babel/helper-compilation-targets/7.20.7_@babel+core@7.20.2:
-    resolution: {integrity: sha512-4tGORmfQcrc+bvrjb5y3dG9Mx1IOZjsHqQVUz7XCNHO+iTmqxWnVg3KRygjGmpRLJGdQSKuvFinbIb0CnZwHAQ==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/compat-data': 7.20.10
-      '@babel/core': 7.20.2
       '@babel/helper-validator-option': 7.18.6
       browserslist: 4.21.4
       lru-cache: 5.1.1
