@@ -24,7 +24,7 @@ specifiers:
   karma-jasmine-html-reporter: ~2.0.0
   rollup-plugin-visualizer: ^5.9.0
   rxjs: ~7.8.0
-  tslib: ^2.4.1
+  tslib: ^2.5.0
   typescript: ~4.9.4
   vite: ^4.0.4
   zone.js: ~0.12.0
@@ -40,7 +40,7 @@ dependencies:
   '@angular/router': 15.1.2_2e65tvtyrwy7yijl6ersdz3qky
   '@orchy-mfe/spa-adapter': 0.1.1
   rxjs: 7.8.0
-  tslib: 2.4.1
+  tslib: 2.5.0
   zone.js: 0.12.0
 
 devDependencies:
@@ -274,7 +274,7 @@ packages:
       '@angular/core': 15.1.2
     dependencies:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/cli/15.1.3:
@@ -315,7 +315,7 @@ packages:
     dependencies:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/compiler-cli/15.1.2_cywxlx5iht33t5xeib7j5n7lry:
@@ -335,7 +335,7 @@ packages:
       magic-string: 0.27.0
       reflect-metadata: 0.1.13
       semver: 7.3.8
-      tslib: 2.4.1
+      tslib: 2.5.0
       typescript: 4.9.4
       yargs: 17.6.2
     transitivePeerDependencies:
@@ -352,7 +352,7 @@ packages:
         optional: true
     dependencies:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
-      tslib: 2.4.1
+      tslib: 2.5.0
 
   /@angular/core/15.1.2_rxjs@7.8.0+zone.js@0.12.0:
     resolution: {integrity: sha512-K9pz6Bq6RuY/OWhKLZT1JQvk4orvU9wozgXY8cZaOGmNCQQ7sJv5zGkO5csO6o1ON1v/AHowrP/FAF1i8tml5g==}
@@ -362,7 +362,7 @@ packages:
       zone.js: ~0.11.4 || ~0.12.0
     dependencies:
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
       zone.js: 0.12.0
 
   /@angular/forms/15.1.2_2e65tvtyrwy7yijl6ersdz3qky:
@@ -378,7 +378,7 @@ packages:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.1.2_d5cqipbc22ng45bbz7rblks63q
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/platform-browser-dynamic/15.1.2_nvxdb5l45salvpcyi4ujzyiawy:
@@ -394,7 +394,7 @@ packages:
       '@angular/compiler': 15.1.2_@angular+core@15.1.2
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.1.2_d5cqipbc22ng45bbz7rblks63q
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/platform-browser/15.1.2_d5cqipbc22ng45bbz7rblks63q:
@@ -411,7 +411,7 @@ packages:
       '@angular/animations': 15.1.2_@angular+core@15.1.2
       '@angular/common': 15.1.2_77moedl5bs7lqwcv53ddrcqlqi
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@angular/router/15.1.2_2e65tvtyrwy7yijl6ersdz3qky:
@@ -427,7 +427,7 @@ packages:
       '@angular/core': 15.1.2_rxjs@7.8.0+zone.js@0.12.0
       '@angular/platform-browser': 15.1.2_d5cqipbc22ng45bbz7rblks63q
       rxjs: 7.8.0
-      tslib: 2.4.1
+      tslib: 2.5.0
     dev: false
 
   /@assemblyscript/loader/0.10.1:
@@ -4619,7 +4619,7 @@ packages:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.4.1
+      tslib: 2.5.0
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.10
@@ -5865,7 +5865,7 @@ packages:
   /rxjs/7.8.0:
     resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
 
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
@@ -6432,6 +6432,10 @@ packages:
 
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+    dev: true
+
+  /tslib/2.5.0:
+    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
 
   /type-fest/0.21.3:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
@@ -6916,4 +6920,4 @@ packages:
   /zone.js/0.12.0:
     resolution: {integrity: sha512-XtC+I5dXU14HrzidAKBNMqneIVUykLEAA1x+v4KVrd6AUPWlwYORF8KgsVqvgdHiKZ4BkxxjvYi/ksEixTPR0Q==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.5.0
