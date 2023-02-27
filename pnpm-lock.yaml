@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@analogjs/vite-plugin-angular': 0.2.0-alpha.26
+  '@analogjs/vite-plugin-angular': 0.2.0-alpha.28
   '@angular-devkit/build-angular': ^15.2.0
   '@angular/animations': ^15.2.0
   '@angular/cli': ~15.2.0
@@ -44,7 +44,7 @@ dependencies:
   zone.js: 0.12.0
 
 devDependencies:
-  '@analogjs/vite-plugin-angular': 0.2.0-alpha.26_igkmkjuneo3w7fmvwhiayjbamy
+  '@analogjs/vite-plugin-angular': 0.2.0-alpha.28_igkmkjuneo3w7fmvwhiayjbamy
   '@angular-devkit/build-angular': 15.2.0_ht2jtrirovptwcqy4pi5q5aehm
   '@angular/cli': 15.2.0
   '@angular/compiler-cli': 15.2.0_m4al3dxpm6stx7f4nyyv5fszcu
@@ -70,8 +70,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@analogjs/vite-plugin-angular/0.2.0-alpha.26_igkmkjuneo3w7fmvwhiayjbamy:
-    resolution: {integrity: sha512-fMv/yZe8BCv2FR49H1ReFM5mWJ+XFjZwTNWtu54/xzfW5fjSaUDJY412PfDbmczT23i574OFD4scYi2Y61TdYg==}
+  /@analogjs/vite-plugin-angular/0.2.0-alpha.28_igkmkjuneo3w7fmvwhiayjbamy:
+    resolution: {integrity: sha512-22oymsRyIciJToLct7nLykhTzTz0O3r86Qtwzmg2veKlkZwTIgM9ezVtitJoqDRGiWxs/5ohI4/jOgAYEgliSg==}
     peerDependencies:
       '@angular-devkit/build-angular': ^14.0.0 || ^15.0.0
     dependencies:
