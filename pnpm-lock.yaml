@@ -41,13 +41,13 @@ dependencies:
 devDependencies:
   '@analogjs/vite-plugin-angular':
     specifier: 0.2.0-alpha.29
-    version: 0.2.0-alpha.29(@angular-devkit/build-angular@15.2.5)
+    version: 0.2.0-alpha.29(@angular-devkit/build-angular@15.2.6)
   '@angular-devkit/build-angular':
-    specifier: ^15.2.5
-    version: 15.2.5(@angular/compiler-cli@15.2.6)(karma@6.4.1)(typescript@4.9.5)
+    specifier: ^15.2.6
+    version: 15.2.6(@angular/compiler-cli@15.2.6)(karma@6.4.1)(typescript@4.9.5)
   '@angular/cli':
-    specifier: ~15.2.5
-    version: 15.2.5
+    specifier: ~15.2.6
+    version: 15.2.6
   '@angular/compiler-cli':
     specifier: ^15.2.6
     version: 15.2.6(@angular/compiler@15.2.6)(typescript@4.9.5)
@@ -95,26 +95,26 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@analogjs/vite-plugin-angular@0.2.0-alpha.29(@angular-devkit/build-angular@15.2.5):
+  /@analogjs/vite-plugin-angular@0.2.0-alpha.29(@angular-devkit/build-angular@15.2.6):
     resolution: {integrity: sha512-aUT6LW+ohQ9XCPoUWCle8UGpquYeA4LTx0DDJi5KAcX9g96sakuWQ14dfnEnkju5OBBZArZLGAubLnQJKBT84g==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0-next.0
     dependencies:
-      '@angular-devkit/build-angular': 15.2.5(@angular/compiler-cli@15.2.6)(karma@6.4.1)(typescript@4.9.5)
+      '@angular-devkit/build-angular': 15.2.6(@angular/compiler-cli@15.2.6)(karma@6.4.1)(typescript@4.9.5)
     dev: true
 
-  /@angular-devkit/architect@0.1502.5(chokidar@3.5.3):
-    resolution: {integrity: sha512-6KVrXQ/X7W88WSJvYe69ed/2QzQNlObKpj3BWzmcKnA+IvJB37/mvw8VaGFP9y+pDa/b1D1yCDtAJLeP5QY3xg==}
+  /@angular-devkit/architect@0.1502.6(chokidar@3.5.3):
+    resolution: {integrity: sha512-n4oJ9vzFWwabf+AfgqqevVzdJhNKNCav7ytefjD/Y01vkNwlXqWnHcvyyHCLkVibJ6WR8J9lK4t77j/HFlDvWQ==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 15.2.5(chokidar@3.5.3)
+      '@angular-devkit/core': 15.2.6(chokidar@3.5.3)
       rxjs: 6.6.7
     transitivePeerDependencies:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@15.2.5(@angular/compiler-cli@15.2.6)(karma@6.4.1)(typescript@4.9.5):
-    resolution: {integrity: sha512-D2LxjBtUlgJnPxybOIN0XsENEGkVkqCGBBii5oK84HvgBHXO/EyP1WXpOdb2lOYSUZyjhOOs0q42LCobJoaxUw==}
+  /@angular-devkit/build-angular@15.2.6(@angular/compiler-cli@15.2.6)(karma@6.4.1)(typescript@4.9.5):
+    resolution: {integrity: sha512-OmMcdXXUrAdZNxwxDE8SUx1FMcq9FyMnrSv1PmP9sHPBoxAdBVc/qNdGA9V7C5yHvWHGgzsx7ZK5TDuvifzS5g==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^15.0.0
@@ -143,9 +143,9 @@ packages:
         optional: true
     dependencies:
       '@ampproject/remapping': 2.2.0
-      '@angular-devkit/architect': 0.1502.5(chokidar@3.5.3)
-      '@angular-devkit/build-webpack': 0.1502.5(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1)
-      '@angular-devkit/core': 15.2.5(chokidar@3.5.3)
+      '@angular-devkit/architect': 0.1502.6(chokidar@3.5.3)
+      '@angular-devkit/build-webpack': 0.1502.6(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1)
+      '@angular-devkit/core': 15.2.6(chokidar@3.5.3)
       '@angular/compiler-cli': 15.2.6(@angular/compiler@15.2.6)(typescript@4.9.5)
       '@babel/core': 7.20.12
       '@babel/generator': 7.20.14
@@ -158,7 +158,7 @@ packages:
       '@babel/runtime': 7.20.13
       '@babel/template': 7.20.7
       '@discoveryjs/json-ext': 0.5.7
-      '@ngtools/webpack': 15.2.5(@angular/compiler-cli@15.2.6)(typescript@4.9.5)(webpack@5.76.1)
+      '@ngtools/webpack': 15.2.6(@angular/compiler-cli@15.2.6)(typescript@4.9.5)(webpack@5.76.1)
       ansi-colors: 4.1.3
       autoprefixer: 10.4.13(postcss@8.4.21)
       babel-loader: 9.1.2(@babel/core@7.20.12)(webpack@5.76.1)
@@ -222,14 +222,14 @@ packages:
       - webpack-cli
     dev: true
 
-  /@angular-devkit/build-webpack@0.1502.5(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1):
-    resolution: {integrity: sha512-gPkAa4AvQ7BxU+jmVJqrAO18kw/6iks+VUQ+2BVPyHCdqhroANHYdGbZ/pFlZdPmZVzSpusjd6VIbLhbHr/Ohw==}
+  /@angular-devkit/build-webpack@0.1502.6(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1):
+    resolution: {integrity: sha512-X7XQ11QDz2Bs5qpJ3a5glIytvI+S74ORQxdzvT6a6KB8ayW0SgZEhTwD+GF7pa5My8draIaXBGzzQR1qmpWK5Q==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       webpack: ^5.30.0
       webpack-dev-server: ^4.0.0
     dependencies:
-      '@angular-devkit/architect': 0.1502.5(chokidar@3.5.3)
+      '@angular-devkit/architect': 0.1502.6(chokidar@3.5.3)
       rxjs: 6.6.7
       webpack: 5.76.1(esbuild@0.17.8)
       webpack-dev-server: 4.11.1(webpack@5.76.1)
@@ -237,8 +237,8 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/core@15.2.5(chokidar@3.5.3):
-    resolution: {integrity: sha512-ZfjEkAe2yYeekc3xjZ/U4pK9nb+w6BFwAEjou6mE8PWZH7iYskm0YCCXkmu+B+zViEcCLhAkJAxu9MwX4efd8g==}
+  /@angular-devkit/core@15.2.6(chokidar@3.5.3):
+    resolution: {integrity: sha512-YVTWZ+M+xNKdFX4EnY9QX49PZraawiaA0iTd2CUW8ZoTUvU7yOGMKZLSdz6aokTMRVfm0449wt6YL994ibOo1g==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       chokidar: ^3.5.2
@@ -254,11 +254,11 @@ packages:
       source-map: 0.7.4
     dev: true
 
-  /@angular-devkit/schematics@15.2.5:
-    resolution: {integrity: sha512-zm7chQRQtPXQzzSAvK/mbZ+RJ3eP7hlU53yyJ/i6kjWAh3Y5uiSHNYGmqhhAHFuzw4Jhb4OC2S9iycxrqmI8TA==}
+  /@angular-devkit/schematics@15.2.6:
+    resolution: {integrity: sha512-f7VgnAcok7AwR/DhX0ZWskB0rFBo/KsvtIUA2qZSrpKMf8eFiwu03dv/b2mI0vnf+1FBfIQzJvO0ww45zRp6dA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 15.2.5(chokidar@3.5.3)
+      '@angular-devkit/core': 15.2.6(chokidar@3.5.3)
       jsonc-parser: 3.2.0
       magic-string: 0.29.0
       ora: 5.4.1
@@ -277,15 +277,15 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@angular/cli@15.2.5:
-    resolution: {integrity: sha512-TmkkeJkdfDkC6b2SNQcLlr1rsl2anc5rrrY3gawOVXYXBExMxAi2SNJsHZzUXfiitW52aZkAyajF1VFazs8PRw==}
+  /@angular/cli@15.2.6:
+    resolution: {integrity: sha512-wNkQ/qCVbd4pERaGVagKJPifEvjRNY5otwsd4iRVubY/XOcIHcYChUThZwgQdVfNAImfJPMZNrhbGxejuWLA9w==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     hasBin: true
     dependencies:
-      '@angular-devkit/architect': 0.1502.5(chokidar@3.5.3)
-      '@angular-devkit/core': 15.2.5(chokidar@3.5.3)
-      '@angular-devkit/schematics': 15.2.5
-      '@schematics/angular': 15.2.5
+      '@angular-devkit/architect': 0.1502.6(chokidar@3.5.3)
+      '@angular-devkit/core': 15.2.6(chokidar@3.5.3)
+      '@angular-devkit/schematics': 15.2.6
+      '@schematics/angular': 15.2.6
       '@yarnpkg/lockfile': 1.1.0
       ansi-colors: 4.1.3
       ini: 3.0.1
@@ -1907,8 +1907,8 @@ packages:
     resolution: {integrity: sha512-VMOxsWh/QDwrxPsgkSQnuZ+8mfNy1OTjzzUdLBvvZtpahwPTHTeVZ51RZRqO4xfKVrR+btIPA8D01IL3xeG66w==}
     dev: false
 
-  /@ngtools/webpack@15.2.5(@angular/compiler-cli@15.2.6)(typescript@4.9.5)(webpack@5.76.1):
-    resolution: {integrity: sha512-wD6GY4xghVK+SQL0dy/M3saGx5pqi7+1VHEr+BBI7IUNYGSqPNzylKNxLBgQiTzfkzvbrZ6MhfaMNkhvSCYr5w==}
+  /@ngtools/webpack@15.2.6(@angular/compiler-cli@15.2.6)(typescript@4.9.5)(webpack@5.76.1):
+    resolution: {integrity: sha512-I+kekKItfsCLdX+ZjjmsWqd0AyoYGTQPjlbQAiPtmdH73/rfPOF4Q/3AU4tzTdn0n0GXqZWv6VOs91w99ydi0A==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^15.0.0
@@ -2029,12 +2029,12 @@ packages:
       lit: 2.4.1
     dev: false
 
-  /@schematics/angular@15.2.5:
-    resolution: {integrity: sha512-YN0A5bzuqEmLdwbcQRop9TFj0QVxTC/XCL0K5DfDymVBS2j09NMyLLVc6TDOs+J/fMQr5EwiT149ikzqiUmAcw==}
+  /@schematics/angular@15.2.6:
+    resolution: {integrity: sha512-OcBUvVAxZEMBX+fi0ytybeAdmStra+GwtlvipS70yOxcAgJ84ZrnZGN7a072cCVQcq7AgqUfssnyqCx1wu+yCg==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 15.2.5(chokidar@3.5.3)
-      '@angular-devkit/schematics': 15.2.5
+      '@angular-devkit/core': 15.2.6(chokidar@3.5.3)
+      '@angular-devkit/schematics': 15.2.6
       jsonc-parser: 3.2.0
     transitivePeerDependencies:
       - chokidar
