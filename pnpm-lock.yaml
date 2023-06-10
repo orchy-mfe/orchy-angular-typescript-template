@@ -80,8 +80,8 @@ devDependencies:
     specifier: ~2.1.0
     version: 2.1.0(jasmine-core@5.0.1)(karma-jasmine@5.1.0)(karma@6.4.2)
   rollup-plugin-visualizer:
-    specifier: ^5.9.0
-    version: 5.9.0
+    specifier: ^5.9.2
+    version: 5.9.2
   typescript:
     specifier: ~5.0.4
     version: 5.0.4
@@ -5071,15 +5071,6 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /open@8.4.0:
-    resolution: {integrity: sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==}
-    engines: {node: '>=12'}
-    dependencies:
-      define-lazy-prop: 2.0.0
-      is-docker: 2.2.1
-      is-wsl: 2.2.0
-    dev: true
-
   /open@8.4.1:
     resolution: {integrity: sha512-/4b7qZNhv6Uhd7jjnREh1NjnPxlTq+XNWPG88Ydkj5AILcA5m3ajvcg57pB24EQjKv0dK62XnDqk9c/hkIG5Kg==}
     engines: {node: '>=12'}
@@ -5639,8 +5630,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer@5.9.0:
-    resolution: {integrity: sha512-bbDOv47+Bw4C/cgs0czZqfm8L82xOZssk4ayZjG40y9zbXclNk7YikrZTDao6p7+HDiGxrN0b65SgZiVm9k1Cg==}
+  /rollup-plugin-visualizer@5.9.2:
+    resolution: {integrity: sha512-waHktD5mlWrYFrhOLbti4YgQCn1uR24nYsNuXxg7LkPH8KdTXVWR9DNY1WU0QqokyMixVXJS4J04HNrVTMP01A==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -5649,7 +5640,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      open: 8.4.0
+      open: 8.4.1
       picomatch: 2.3.1
       source-map: 0.7.4
       yargs: 17.6.2
