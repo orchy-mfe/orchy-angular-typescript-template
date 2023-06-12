@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -16,7 +16,7 @@ dependencies:
     version: 16.0.5(@angular/core@16.0.5)
   '@angular/core':
     specifier: ^16.0.5
-    version: 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+    version: 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
   '@angular/forms':
     specifier: ^16.0.5
     version: 16.0.5(@angular/common@16.0.5)(@angular/core@16.0.5)(@angular/platform-browser@16.0.5)(rxjs@7.8.1)
@@ -39,8 +39,8 @@ dependencies:
     specifier: ^2.5.3
     version: 2.5.3
   zone.js:
-    specifier: ~0.13.0
-    version: 0.13.0
+    specifier: ~0.13.1
+    version: 0.13.1
 
 devDependencies:
   '@analogjs/vite-plugin-angular':
@@ -277,7 +277,7 @@ packages:
     peerDependencies:
       '@angular/core': 16.0.5
     dependencies:
-      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
       tslib: 2.5.3
     dev: false
 
@@ -317,7 +317,7 @@ packages:
       '@angular/core': 16.0.5
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
       rxjs: 7.8.1
       tslib: 2.5.3
     dev: false
@@ -353,10 +353,10 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
       tslib: 2.5.3
 
-  /@angular/core@16.0.5(rxjs@7.8.1)(zone.js@0.13.0):
+  /@angular/core@16.0.5(rxjs@7.8.1)(zone.js@0.13.1):
     resolution: {integrity: sha512-zZYcL10eKkwjR0zIjJzqlyKpu+a0aPQrSdVUDc/ugEEcf80sN/BBEQxC8CNqccbUDFUIk/qPi/2Q9b6U1rKJpA==}
     engines: {node: ^16.14.0 || >=18.10.0}
     peerDependencies:
@@ -365,7 +365,7 @@ packages:
     dependencies:
       rxjs: 7.8.1
       tslib: 2.5.3
-      zone.js: 0.13.0
+      zone.js: 0.13.1
 
   /@angular/forms@16.0.5(@angular/common@16.0.5)(@angular/core@16.0.5)(@angular/platform-browser@16.0.5)(rxjs@7.8.1):
     resolution: {integrity: sha512-D5fSwa/xjrejUcC+WmirP89bKciwlCu9EDcQ83mR8tdtv27sc6Ht67RiCYVR1XSaro0bRxJZ0PeZJi7lqSZwdw==}
@@ -377,7 +377,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 16.0.5(@angular/core@16.0.5)(rxjs@7.8.1)
-      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
       '@angular/platform-browser': 16.0.5(@angular/animations@16.0.5)(@angular/common@16.0.5)(@angular/core@16.0.5)
       rxjs: 7.8.1
       tslib: 2.5.3
@@ -394,7 +394,7 @@ packages:
     dependencies:
       '@angular/common': 16.0.5(@angular/core@16.0.5)(rxjs@7.8.1)
       '@angular/compiler': 16.0.5(@angular/core@16.0.5)
-      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
       '@angular/platform-browser': 16.0.5(@angular/animations@16.0.5)(@angular/common@16.0.5)(@angular/core@16.0.5)
       tslib: 2.5.3
     dev: false
@@ -412,7 +412,7 @@ packages:
     dependencies:
       '@angular/animations': 16.0.5(@angular/core@16.0.5)
       '@angular/common': 16.0.5(@angular/core@16.0.5)(rxjs@7.8.1)
-      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
       tslib: 2.5.3
     dev: false
 
@@ -426,7 +426,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 16.0.5(@angular/core@16.0.5)(rxjs@7.8.1)
-      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.0)
+      '@angular/core': 16.0.5(rxjs@7.8.1)(zone.js@0.13.1)
       '@angular/platform-browser': 16.0.5(@angular/animations@16.0.5)(@angular/common@16.0.5)(@angular/core@16.0.5)
       rxjs: 7.8.1
       tslib: 2.5.3
@@ -6750,7 +6750,7 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  /zone.js@0.13.0:
-    resolution: {integrity: sha512-7m3hNNyswsdoDobCkYNAy5WiUulkMd3+fWaGT9ij6iq3Zr/IwJo4RMCYPSDjT+r7tnPErmY9sZpKhWQ8S5k6XQ==}
+  /zone.js@0.13.1:
+    resolution: {integrity: sha512-+bIeDAFEBYuXRuU3qGQvzdPap+N1zjM4KkBAiiQuVVCrHrhjDuY6VkUhNa5+U27+9w0q3fbKiMCbpJ0XzMmSWA==}
     dependencies:
       tslib: 2.5.3
