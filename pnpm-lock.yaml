@@ -45,13 +45,13 @@ dependencies:
 devDependencies:
   '@analogjs/vite-plugin-angular':
     specifier: 0.2.0-alpha.29
-    version: 0.2.0-alpha.29(@angular-devkit/build-angular@15.2.9)
+    version: 0.2.0-alpha.29(@angular-devkit/build-angular@15.2.10)
   '@angular-devkit/build-angular':
-    specifier: ^15.2.9
-    version: 15.2.9(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6)
+    specifier: ^15.2.10
+    version: 15.2.10(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6)
   '@angular/cli':
-    specifier: ~15.2.9
-    version: 15.2.9
+    specifier: ~15.2.10
+    version: 15.2.10
   '@angular/compiler-cli':
     specifier: ^16.2.5
     version: 16.2.5(@angular/compiler@16.2.5)(typescript@5.1.6)
@@ -99,26 +99,26 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@analogjs/vite-plugin-angular@0.2.0-alpha.29(@angular-devkit/build-angular@15.2.9):
+  /@analogjs/vite-plugin-angular@0.2.0-alpha.29(@angular-devkit/build-angular@15.2.10):
     resolution: {integrity: sha512-aUT6LW+ohQ9XCPoUWCle8UGpquYeA4LTx0DDJi5KAcX9g96sakuWQ14dfnEnkju5OBBZArZLGAubLnQJKBT84g==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0-next.0
     dependencies:
-      '@angular-devkit/build-angular': 15.2.9(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6)
+      '@angular-devkit/build-angular': 15.2.10(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6)
     dev: true
 
-  /@angular-devkit/architect@0.1502.9(chokidar@3.5.3):
-    resolution: {integrity: sha512-CFn+LbtYeLG7WqO+BBSjogl764StHpwgfJnNAXQ/3UouUktZ92z4lxhUm0PwIPb5k0lILsf81ubcS1vzwoXEEg==}
+  /@angular-devkit/architect@0.1502.10(chokidar@3.5.3):
+    resolution: {integrity: sha512-S8lN73WYCfpEpw1Q41ZcUinw7JfDeSM8LyGs797OVshnW75QcOkOecWj/3CKR23G44IgFrHN6sqtzWxKmMxLig==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 15.2.9(chokidar@3.5.3)
+      '@angular-devkit/core': 15.2.10(chokidar@3.5.3)
       rxjs: 6.6.7
     transitivePeerDependencies:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@15.2.9(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6):
-    resolution: {integrity: sha512-djOo2Q22zLrxPccSbINz93hD+pES/nNPoze4Ys/0IdtMlLmxO/YGsA+FG5eNeNAf2jK/JRoNydaYOh7XpGoCzA==}
+  /@angular-devkit/build-angular@15.2.10(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6):
+    resolution: {integrity: sha512-3pCPVEJilVwHIJC6Su1/PIEqvFfU1Lxew9yItxX4s6dud8HY+fuKrsDnao4NNMFNqCLqL4el5QbSBKnnpWH1sg==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^15.0.0
@@ -147,9 +147,9 @@ packages:
         optional: true
     dependencies:
       '@ampproject/remapping': 2.2.0
-      '@angular-devkit/architect': 0.1502.9(chokidar@3.5.3)
-      '@angular-devkit/build-webpack': 0.1502.9(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1)
-      '@angular-devkit/core': 15.2.9(chokidar@3.5.3)
+      '@angular-devkit/architect': 0.1502.10(chokidar@3.5.3)
+      '@angular-devkit/build-webpack': 0.1502.10(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1)
+      '@angular-devkit/core': 15.2.10(chokidar@3.5.3)
       '@angular/compiler-cli': 16.2.5(@angular/compiler@16.2.5)(typescript@5.1.6)
       '@babel/core': 7.20.12
       '@babel/generator': 7.20.14
@@ -162,9 +162,9 @@ packages:
       '@babel/runtime': 7.20.13
       '@babel/template': 7.20.7
       '@discoveryjs/json-ext': 0.5.7
-      '@ngtools/webpack': 15.2.9(@angular/compiler-cli@16.2.5)(typescript@5.1.6)(webpack@5.76.1)
+      '@ngtools/webpack': 15.2.10(@angular/compiler-cli@16.2.5)(typescript@5.1.6)(webpack@5.76.1)
       ansi-colors: 4.1.3
-      autoprefixer: 10.4.13(postcss@8.4.21)
+      autoprefixer: 10.4.13(postcss@8.4.31)
       babel-loader: 9.1.2(@babel/core@7.20.12)(webpack@5.76.1)
       babel-plugin-istanbul: 6.1.1
       browserslist: 4.21.5
@@ -190,8 +190,8 @@ packages:
       ora: 5.4.1
       parse5-html-rewriting-stream: 7.0.0
       piscina: 3.2.0
-      postcss: 8.4.21
-      postcss-loader: 7.0.2(postcss@8.4.21)(webpack@5.76.1)
+      postcss: 8.4.31
+      postcss-loader: 7.0.2(postcss@8.4.31)(webpack@5.76.1)
       resolve-url-loader: 5.0.0
       rxjs: 6.6.7
       sass: 1.58.1
@@ -226,14 +226,14 @@ packages:
       - webpack-cli
     dev: true
 
-  /@angular-devkit/build-webpack@0.1502.9(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1):
-    resolution: {integrity: sha512-VzMXoZjrbL1XlcSegqpZCBDbVvKFGPs3cKp4bXDD5ht95jcCyJPk5FA/wrh0pGGwbOF8ae/XOWFcPRzctC35iA==}
+  /@angular-devkit/build-webpack@0.1502.10(chokidar@3.5.3)(webpack-dev-server@4.11.1)(webpack@5.76.1):
+    resolution: {integrity: sha512-55b9WZIGU4DNgiIV2lkkN6iQxJrgWY5CDaNu0kJC/qazotJgBbcN/8jgBx2DD8HNE1V3iXxWk66pt1h946Po+Q==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       webpack: ^5.30.0
       webpack-dev-server: ^4.0.0
     dependencies:
-      '@angular-devkit/architect': 0.1502.9(chokidar@3.5.3)
+      '@angular-devkit/architect': 0.1502.10(chokidar@3.5.3)
       rxjs: 6.6.7
       webpack: 5.76.1(esbuild@0.17.8)
       webpack-dev-server: 4.11.1(webpack@5.76.1)
@@ -241,8 +241,8 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/core@15.2.9(chokidar@3.5.3):
-    resolution: {integrity: sha512-6u44YJ9tEG2hiWITL1rwA9yP6ot4a3cyN/UOMRkYSa/XO2Gz5/dM3U74E2kwg+P1NcxLXffBWl0rz8/Y/lSZyQ==}
+  /@angular-devkit/core@15.2.10(chokidar@3.5.3):
+    resolution: {integrity: sha512-bFPm7wjvfBds9km2rCJxUhzkqe4h3h/199yJtzC1bNvwRr2LMHvtyoQAzftda+gs7Ulqac5wzUEZX/cVV3WrsA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       chokidar: ^3.5.2
@@ -258,11 +258,11 @@ packages:
       source-map: 0.7.4
     dev: true
 
-  /@angular-devkit/schematics@15.2.9:
-    resolution: {integrity: sha512-o08nE8sTpfq/Fknrr1rzBsM8vY36BDox+8dOo9Zc/KqcVPwDy94YKRzHb+xxVaU9jy1VYeCjy63mkyELy7Z3zQ==}
+  /@angular-devkit/schematics@15.2.10:
+    resolution: {integrity: sha512-EeoDs4oKFpLZNa21G/8dqBdclEc4U2piI9EeXCVTaN6z5DYXIZ0G1WtCXU8nhD+GckS47rmfZ4/3lMaXAvED+g==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 15.2.9(chokidar@3.5.3)
+      '@angular-devkit/core': 15.2.10(chokidar@3.5.3)
       jsonc-parser: 3.2.0
       magic-string: 0.29.0
       ora: 5.4.1
@@ -281,15 +281,15 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@angular/cli@15.2.9:
-    resolution: {integrity: sha512-mI6hkGyIJDKd8MRiBl3p5chsUhgnluwmpsq3g1FFPw+wv+eXsPYgCiHqXS/OsK+shFxii9XMxoZQO28bJ4NAOQ==}
+  /@angular/cli@15.2.10:
+    resolution: {integrity: sha512-/TSnm/ZQML6A4lvunyN2tjTB5utuvk3d1Pnfyehp/FXtV6YfZm6+EZrOpKkKPCxTuAgW6c9KK4yQtt3RuNVpwQ==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     hasBin: true
     dependencies:
-      '@angular-devkit/architect': 0.1502.9(chokidar@3.5.3)
-      '@angular-devkit/core': 15.2.9(chokidar@3.5.3)
-      '@angular-devkit/schematics': 15.2.9
-      '@schematics/angular': 15.2.9
+      '@angular-devkit/architect': 0.1502.10(chokidar@3.5.3)
+      '@angular-devkit/core': 15.2.10(chokidar@3.5.3)
+      '@angular-devkit/schematics': 15.2.10
+      '@schematics/angular': 15.2.10
       '@yarnpkg/lockfile': 1.1.0
       ansi-colors: 4.1.3
       ini: 3.0.1
@@ -806,6 +806,7 @@ packages:
   /@babel/plugin-proposal-async-generator-functions@7.20.7(@babel/core@7.20.12):
     resolution: {integrity: sha512-xMbiLsn/8RK7Wq7VeVytytS2L6qE69bXPB10YCmMdDZbKF4okCqY74pI/jJQ/8U0b/F6NrT2+14b8/P9/3AMGA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -821,6 +822,7 @@ packages:
   /@babel/plugin-proposal-class-properties@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -834,6 +836,7 @@ packages:
   /@babel/plugin-proposal-class-static-block@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-+I3oIiNxrCpup3Gi8n5IGMwj0gOCAjcJUSQEcotNnCCPMEnixawOQ+KeJPlgfjzx+FKQ1QSyZOWe7wmoJp7vhw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-static-block instead.
     peerDependencies:
       '@babel/core': ^7.12.0
     dependencies:
@@ -848,6 +851,7 @@ packages:
   /@babel/plugin-proposal-dynamic-import@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-1auuwmK+Rz13SJj36R+jqFPMJWyKEDd7lLSdOj4oJK0UTgGueSAtkrCvz9ewmgyU/P941Rv2fQwZJN8s6QruXw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -859,6 +863,7 @@ packages:
   /@babel/plugin-proposal-export-namespace-from@7.18.9(@babel/core@7.20.12):
     resolution: {integrity: sha512-k1NtHyOMvlDDFeb9G5PhUXuGj8m/wiwojgQVEhJ/fsVsMCpLyOP4h0uGEjYJKrRI+EVPlb5Jk+Gt9P97lOGwtA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -870,6 +875,7 @@ packages:
   /@babel/plugin-proposal-json-strings@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-lr1peyn9kOdbYc0xr0OdHTZ5FMqS6Di+H0Fz2I/JwMzGmzJETNeOFq2pBySw6X/KFL5EWDjlJuMsUGRFb8fQgQ==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -881,6 +887,7 @@ packages:
   /@babel/plugin-proposal-logical-assignment-operators@7.18.9(@babel/core@7.20.12):
     resolution: {integrity: sha512-128YbMpjCrP35IOExw2Fq+x55LMP42DzhOhX2aNNIdI9avSWl2PI0yuBWarr3RYpZBSPtabfadkH2yeRiMD61Q==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -892,6 +899,7 @@ packages:
   /@babel/plugin-proposal-nullish-coalescing-operator@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -903,6 +911,7 @@ packages:
   /@babel/plugin-proposal-numeric-separator@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -914,6 +923,7 @@ packages:
   /@babel/plugin-proposal-object-rest-spread@7.20.2(@babel/core@7.20.12):
     resolution: {integrity: sha512-Ks6uej9WFK+fvIMesSqbAto5dD8Dz4VuuFvGJFKgIGSkJuRGcrwGECPA1fDgQK3/DbExBJpEkTeYeB8geIFCSQ==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -928,6 +938,7 @@ packages:
   /@babel/plugin-proposal-optional-catch-binding@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-Q40HEhs9DJQyaZfUjjn6vE8Cv4GmMHCYuMGIWUnlxH6400VGxOuwWsPt4FxXxJkC/5eOzgn0z21M9gMT4MOhbw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -939,6 +950,7 @@ packages:
   /@babel/plugin-proposal-optional-chaining@7.18.9(@babel/core@7.20.12):
     resolution: {integrity: sha512-v5nwt4IqBXihxGsW2QmCWMDS3B3bzGIk/EQVZz2ei7f3NJl8NzAJVvUmpDW5q1CRNY+Beb/k58UAH1Km1N411w==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -951,6 +963,7 @@ packages:
   /@babel/plugin-proposal-private-methods@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -964,6 +977,7 @@ packages:
   /@babel/plugin-proposal-private-property-in-object@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-9Rysx7FOctvT5ouj5JODjAFAkgGoudQuLPamZb0v1TGLpapdNaftzifU8NTWQm0IRjqoYypdrSmyWgkocDQ8Dw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -979,6 +993,7 @@ packages:
   /@babel/plugin-proposal-unicode-property-regex@7.18.6(@babel/core@7.20.12):
     resolution: {integrity: sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w==}
     engines: {node: '>=4'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2133,8 +2148,8 @@ packages:
     resolution: {integrity: sha512-VMOxsWh/QDwrxPsgkSQnuZ+8mfNy1OTjzzUdLBvvZtpahwPTHTeVZ51RZRqO4xfKVrR+btIPA8D01IL3xeG66w==}
     dev: false
 
-  /@ngtools/webpack@15.2.9(@angular/compiler-cli@16.2.5)(typescript@5.1.6)(webpack@5.76.1):
-    resolution: {integrity: sha512-nOXUGqKkAEMlCcrhkDwWDzcVdKNH7MNRUXfNzsFc9zdeR/5p3qt6SVMN7OOE3NREyI7P6nzARc3S+6QDBjf3Jg==}
+  /@ngtools/webpack@15.2.10(@angular/compiler-cli@16.2.5)(typescript@5.1.6)(webpack@5.76.1):
+    resolution: {integrity: sha512-ZExB4rKh/Saad31O/Ofd2XvRuILuCNTYs0+qJL697Be2pzeewvzBhE4Xe1Mm7Jg13aWSPeuIdzSGOqCdwxxxFQ==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
       '@angular/compiler-cli': ^15.0.0
@@ -2255,12 +2270,12 @@ packages:
       lit: 2.4.1
     dev: false
 
-  /@schematics/angular@15.2.9:
-    resolution: {integrity: sha512-0Lit6TLNUwcAYiEkXgZp3vY9xAO1cnZCBXuUcp+6v+Ddnrt2w/YOiGe74p21cYe0StkTpTljsqsKBTiX7TMjQg==}
+  /@schematics/angular@15.2.10:
+    resolution: {integrity: sha512-eLdyP+T1TueNQ8FCP7sP+tt8z+YQ1BINsJsyAyoJT/XZjcCV7LUxgDIU94/kuvIotmJ2xTuFWHFPfAY+CN3duQ==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     dependencies:
-      '@angular-devkit/core': 15.2.9(chokidar@3.5.3)
-      '@angular-devkit/schematics': 15.2.9
+      '@angular-devkit/core': 15.2.10(chokidar@3.5.3)
+      '@angular-devkit/schematics': 15.2.10
       jsonc-parser: 3.2.0
     transitivePeerDependencies:
       - chokidar
@@ -2712,7 +2727,7 @@ packages:
     resolution: {integrity: sha512-hNfzcOV8W4NdualtqBFPyVO+54DSJuZGY9qT4pRroB6S9e3iiido2ISIC5h9R2sPJ8H3FHCIiEnsv1lPXO3KtQ==}
     dev: true
 
-  /autoprefixer@10.4.13(postcss@8.4.21):
+  /autoprefixer@10.4.13(postcss@8.4.31):
     resolution: {integrity: sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -2724,7 +2739,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.21
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -3254,7 +3269,7 @@ packages:
       css-select: 4.3.0
       parse5: 6.0.1
       parse5-htmlparser2-tree-adapter: 6.0.1
-      postcss: 8.4.27
+      postcss: 8.4.31
       pretty-bytes: 5.6.0
     dev: true
 
@@ -3273,12 +3288,12 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.27)
-      postcss: 8.4.27
-      postcss-modules-extract-imports: 3.0.0(postcss@8.4.27)
-      postcss-modules-local-by-default: 4.0.0(postcss@8.4.27)
-      postcss-modules-scope: 3.0.0(postcss@8.4.27)
-      postcss-modules-values: 4.0.0(postcss@8.4.27)
+      icss-utils: 5.1.0(postcss@8.4.31)
+      postcss: 8.4.31
+      postcss-modules-extract-imports: 3.0.0(postcss@8.4.31)
+      postcss-modules-local-by-default: 4.0.0(postcss@8.4.31)
+      postcss-modules-scope: 3.0.0(postcss@8.4.31)
+      postcss-modules-values: 4.0.0(postcss@8.4.31)
       postcss-value-parser: 4.2.0
       semver: 7.5.3
       webpack: 5.76.1(esbuild@0.17.8)
@@ -4195,13 +4210,13 @@ packages:
       safer-buffer: 2.1.2
     dev: true
 
-  /icss-utils@5.1.0(postcss@8.4.27):
+  /icss-utils@5.1.0(postcss@8.4.31):
     resolution: {integrity: sha512-soFhflCVWLfRNOPU3iv5Z9VUdT44xFRbzjLsEzSr5AQmgqPMTHdU3PMT1Cf1ssx8fLNJDA1juftYl+PUcv3MqA==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.27
+      postcss: 8.4.31
     dev: true
 
   /ieee754@1.2.1:
@@ -5523,7 +5538,7 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /postcss-loader@7.0.2(postcss@8.4.21)(webpack@5.76.1):
+  /postcss-loader@7.0.2(postcss@8.4.31)(webpack@5.76.1):
     resolution: {integrity: sha512-fUJzV/QH7NXUAqV8dWJ9Lg4aTkDCezpTS5HgJ2DvqznexTbSTxgi/dTECvTZ15BwKTtk8G/bqI/QTu2HPd3ZCg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -5532,50 +5547,50 @@ packages:
     dependencies:
       cosmiconfig: 7.1.0
       klona: 2.0.5
-      postcss: 8.4.21
+      postcss: 8.4.31
       semver: 7.5.3
       webpack: 5.76.1(esbuild@0.17.8)
     dev: true
 
-  /postcss-modules-extract-imports@3.0.0(postcss@8.4.27):
+  /postcss-modules-extract-imports@3.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.27
+      postcss: 8.4.31
     dev: true
 
-  /postcss-modules-local-by-default@4.0.0(postcss@8.4.27):
+  /postcss-modules-local-by-default@4.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-sT7ihtmGSF9yhm6ggikHdV0hlziDTX7oFoXtuVWeDd3hHObNkcHRo9V3yg7vCAY7cONyxJC/XXCmmiHHcvX7bQ==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.27)
-      postcss: 8.4.27
+      icss-utils: 5.1.0(postcss@8.4.31)
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-modules-scope@3.0.0(postcss@8.4.27):
+  /postcss-modules-scope@3.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.27
+      postcss: 8.4.31
       postcss-selector-parser: 6.0.10
     dev: true
 
-  /postcss-modules-values@4.0.0(postcss@8.4.27):
+  /postcss-modules-values@4.0.0(postcss@8.4.31):
     resolution: {integrity: sha512-RDxHkAiEGI78gS2ofyvCsu7iycRv7oqw5xMWn9iMoR0N/7mf9D50ecQqUo5BZ9Zh2vH4bCUR/ktCqbB9m8vJjQ==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.27)
-      postcss: 8.4.27
+      icss-utils: 5.1.0(postcss@8.4.31)
+      postcss: 8.4.31
     dev: true
 
   /postcss-selector-parser@6.0.10:
@@ -5590,8 +5605,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss@8.4.21:
-    resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
+  /postcss@8.4.27:
+    resolution: {integrity: sha512-gY/ACJtJPSmUFPDCHtX78+01fHa64FaU4zaaWfuh1MhGJISufJAH4cun6k/8fwsHYeK4UQmENQK+tRLCFJE8JQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -5599,8 +5614,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /postcss@8.4.27:
-    resolution: {integrity: sha512-gY/ACJtJPSmUFPDCHtX78+01fHa64FaU4zaaWfuh1MhGJISufJAH4cun6k/8fwsHYeK4UQmENQK+tRLCFJE8JQ==}
+  /postcss@8.4.31:
+    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -5824,7 +5839,7 @@ packages:
       adjust-sourcemap-loader: 4.0.0
       convert-source-map: 1.9.0
       loader-utils: 2.0.4
-      postcss: 8.4.27
+      postcss: 8.4.31
       source-map: 0.6.1
     dev: true
 
