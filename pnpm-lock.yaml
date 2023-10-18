@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^0.3.0
     version: 0.3.0
   '@types/jasmine':
-    specifier: ~5.1.0
-    version: 5.1.0
+    specifier: ~5.1.1
+    version: 5.1.1
   jasmine-core:
     specifier: ~5.1.1
     version: 5.1.1
@@ -2365,8 +2365,8 @@ packages:
       '@types/node': 18.11.9
     dev: true
 
-  /@types/jasmine@5.1.0:
-    resolution: {integrity: sha512-XOV0KsqXNX2gUSqk05RWeolIMgaAQ7+l/ozOBoQ8NGwLg+E7J9vgagODtNgfim4jCzEUP0oJ3gnXeC+Zv+Xi1A==}
+  /@types/jasmine@5.1.1:
+    resolution: {integrity: sha512-qL4GoZHHJl1JQ0vK31OtXMfkfGxYJnysmYz9kk0E8j5W96ThKykBF90uD3PcVmQUAzulbsaus2eFiBhCH5itfw==}
     dev: true
 
   /@types/json-schema@7.0.11:
