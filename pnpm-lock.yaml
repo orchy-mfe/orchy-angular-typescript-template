@@ -80,8 +80,8 @@ devDependencies:
     specifier: ~2.1.0
     version: 2.1.0(jasmine-core@5.1.1)(karma-jasmine@5.1.0)(karma@6.4.2)
   rollup-plugin-visualizer:
-    specifier: ^5.9.2
-    version: 5.9.2
+    specifier: ^5.9.3
+    version: 5.9.3
   typescript:
     specifier: ~5.1.6
     version: 5.1.6
@@ -5973,12 +5973,12 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer@5.9.2:
-    resolution: {integrity: sha512-waHktD5mlWrYFrhOLbti4YgQCn1uR24nYsNuXxg7LkPH8KdTXVWR9DNY1WU0QqokyMixVXJS4J04HNrVTMP01A==}
+  /rollup-plugin-visualizer@5.9.3:
+    resolution: {integrity: sha512-ieGM5UAbMVqThX67GCuFHu/GkaSXIUZwFKJsSzE+7+k9fibU/6gbUz7SL+9BBzNtv5bIFHj7kEu0TWcqEnT/sQ==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
-      rollup: 2.x || 3.x
+      rollup: 2.x || 3.x || 4.x
     peerDependenciesMeta:
       rollup:
         optional: true
