@@ -86,8 +86,8 @@ devDependencies:
     specifier: ~5.1.6
     version: 5.1.6
   vite:
-    specifier: ^5.0.5
-    version: 5.0.5(less@4.1.3)
+    specifier: ^5.0.6
+    version: 5.0.6(less@4.1.3)
 
 packages:
 
@@ -3365,7 +3365,7 @@ packages:
       css-select: 4.3.0
       parse5: 6.0.1
       parse5-htmlparser2-tree-adapter: 6.0.1
-      postcss: 8.4.31
+      postcss: 8.4.32
       pretty-bytes: 5.6.0
     dev: true
 
@@ -3384,12 +3384,12 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.31)
-      postcss: 8.4.31
-      postcss-modules-extract-imports: 3.0.0(postcss@8.4.31)
-      postcss-modules-local-by-default: 4.0.0(postcss@8.4.31)
-      postcss-modules-scope: 3.0.0(postcss@8.4.31)
-      postcss-modules-values: 4.0.0(postcss@8.4.31)
+      icss-utils: 5.1.0(postcss@8.4.32)
+      postcss: 8.4.32
+      postcss-modules-extract-imports: 3.0.0(postcss@8.4.32)
+      postcss-modules-local-by-default: 4.0.0(postcss@8.4.32)
+      postcss-modules-scope: 3.0.0(postcss@8.4.32)
+      postcss-modules-values: 4.0.0(postcss@8.4.32)
       postcss-value-parser: 4.2.0
       semver: 7.5.3
       webpack: 5.76.1(esbuild@0.17.8)
@@ -4306,13 +4306,13 @@ packages:
       safer-buffer: 2.1.2
     dev: true
 
-  /icss-utils@5.1.0(postcss@8.4.31):
+  /icss-utils@5.1.0(postcss@8.4.32):
     resolution: {integrity: sha512-soFhflCVWLfRNOPU3iv5Z9VUdT44xFRbzjLsEzSr5AQmgqPMTHdU3PMT1Cf1ssx8fLNJDA1juftYl+PUcv3MqA==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.31
+      postcss: 8.4.32
     dev: true
 
   /ieee754@1.2.1:
@@ -5182,12 +5182,6 @@ packages:
     resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
     dev: true
 
-  /nanoid@3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: true
-
   /nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -5654,45 +5648,45 @@ packages:
       webpack: 5.76.1(esbuild@0.17.8)
     dev: true
 
-  /postcss-modules-extract-imports@3.0.0(postcss@8.4.31):
+  /postcss-modules-extract-imports@3.0.0(postcss@8.4.32):
     resolution: {integrity: sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.31
+      postcss: 8.4.32
     dev: true
 
-  /postcss-modules-local-by-default@4.0.0(postcss@8.4.31):
+  /postcss-modules-local-by-default@4.0.0(postcss@8.4.32):
     resolution: {integrity: sha512-sT7ihtmGSF9yhm6ggikHdV0hlziDTX7oFoXtuVWeDd3hHObNkcHRo9V3yg7vCAY7cONyxJC/XXCmmiHHcvX7bQ==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.31)
-      postcss: 8.4.31
+      icss-utils: 5.1.0(postcss@8.4.32)
+      postcss: 8.4.32
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-modules-scope@3.0.0(postcss@8.4.31):
+  /postcss-modules-scope@3.0.0(postcss@8.4.32):
     resolution: {integrity: sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      postcss: 8.4.31
+      postcss: 8.4.32
       postcss-selector-parser: 6.0.10
     dev: true
 
-  /postcss-modules-values@4.0.0(postcss@8.4.31):
+  /postcss-modules-values@4.0.0(postcss@8.4.32):
     resolution: {integrity: sha512-RDxHkAiEGI78gS2ofyvCsu7iycRv7oqw5xMWn9iMoR0N/7mf9D50ecQqUo5BZ9Zh2vH4bCUR/ktCqbB9m8vJjQ==}
     engines: {node: ^10 || ^12 || >= 14}
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      icss-utils: 5.1.0(postcss@8.4.31)
-      postcss: 8.4.31
+      icss-utils: 5.1.0(postcss@8.4.32)
+      postcss: 8.4.32
     dev: true
 
   /postcss-selector-parser@6.0.10:
@@ -5711,7 +5705,7 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
-      nanoid: 3.3.6
+      nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
@@ -5941,7 +5935,7 @@ packages:
       adjust-sourcemap-loader: 4.0.0
       convert-source-map: 1.9.0
       loader-utils: 2.0.4
-      postcss: 8.4.31
+      postcss: 8.4.32
       source-map: 0.6.1
     dev: true
 
@@ -6781,8 +6775,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite@5.0.5(less@4.1.3):
-    resolution: {integrity: sha512-OekeWqR9Ls56f3zd4CaxzbbS11gqYkEiBtnWFFgYR2WV8oPJRRKq0mpskYy/XaoCL3L7VINDhqqOMNDiYdGvGg==}
+  /vite@5.0.6(less@4.1.3):
+    resolution: {integrity: sha512-MD3joyAEBtV7QZPl2JVVUai6zHms3YOmLR+BpMzLlX2Yzjfcc4gTgNi09d/Rua3F4EtC8zdwPU8eQYyib4vVMQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
