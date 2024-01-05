@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@analogjs/vite-plugin-angular':
-    specifier: 0.2.0-alpha.29
-    version: 0.2.0-alpha.29(@angular-devkit/build-angular@15.2.10)
+    specifier: 0.2.29
+    version: 0.2.29(@angular-devkit/build-angular@15.2.10)
   '@angular-devkit/build-angular':
     specifier: ^15.2.10
     version: 15.2.10(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6)
@@ -99,10 +99,10 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@analogjs/vite-plugin-angular@0.2.0-alpha.29(@angular-devkit/build-angular@15.2.10):
-    resolution: {integrity: sha512-aUT6LW+ohQ9XCPoUWCle8UGpquYeA4LTx0DDJi5KAcX9g96sakuWQ14dfnEnkju5OBBZArZLGAubLnQJKBT84g==}
+  /@analogjs/vite-plugin-angular@0.2.29(@angular-devkit/build-angular@15.2.10):
+    resolution: {integrity: sha512-xs6FF/W+C/NwBuxP9M7WymqzImb9ipPCg46TcMGogtjoCEXKi5fGaODZO1G8HN5QHlcoxhi8dl1nV5F+LDRvVw==}
     peerDependencies:
-      '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0-next.0
+      '@angular-devkit/build-angular': ^15.0.0 || >=16.0.0
     dependencies:
       '@angular-devkit/build-angular': 15.2.10(@angular/compiler-cli@16.2.5)(karma@6.4.2)(typescript@5.1.6)
     dev: true
