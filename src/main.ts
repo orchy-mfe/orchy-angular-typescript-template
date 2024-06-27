@@ -1,8 +1,9 @@
-import 'zone.js';
+import '@angular/compiler';
 import { NgModuleRef } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { MicroFrontendProperties } from '@orchy-mfe/models';
 import OrchyMicroFrontend from '@orchy-mfe/spa-adapter';
-import {MicroFrontendProperties} from '@orchy-mfe/models';
+import 'zone.js';
 
 import { AppModule } from './app/app.module';
 import { MicroFrontendPropertiesProvider } from './providers/micro-frontend-properties-provider';

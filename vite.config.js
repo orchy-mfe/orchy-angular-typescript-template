@@ -6,7 +6,7 @@ const port = process.env.PORT ? parseInt(process.env.PORT) : 4200
 
 export default defineConfig(({ mode }) => ({
   plugins: [
-    angular(),
+    angular({jit: true}),
     visualizer()
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-angular-typescript-template/',
