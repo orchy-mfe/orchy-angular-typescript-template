@@ -46,8 +46,8 @@ importers:
         version: 0.14.10
     devDependencies:
       '@analogjs/vite-plugin-angular':
-        specifier: 1.7.0
-        version: 1.7.0(@angular-devkit/build-angular@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.14.10)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@ngtools/webpack@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.92.1(esbuild@0.21.5)))
+        specifier: 1.7.1
+        version: 1.7.1(@angular-devkit/build-angular@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.14.10)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@ngtools/webpack@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.92.1(esbuild@0.21.5)))
       '@angular-devkit/build-angular':
         specifier: ^18.1.4
         version: 18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.14.10)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4)
@@ -97,8 +97,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@analogjs/vite-plugin-angular@1.7.0':
-    resolution: {integrity: sha512-+66I+V5yZYcWIL+Uh14jbeBxx14RPdNZWbPTW4IAQowP7KVPcMmJ/NQoxNr8NvKU2mxAb4zRH/GJdoJk6jSC0A==}
+  '@analogjs/vite-plugin-angular@1.7.1':
+    resolution: {integrity: sha512-Ql9pFpCZCwXRFq9v8AhJ9Z81zbEhm0fEPl68Ao3S8E2KbCb7CDQnOYxxsQhNH0efzK4IeV7+OaltfO1/ETblUA==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
       '@ngtools/webpack': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
@@ -4133,7 +4133,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@analogjs/vite-plugin-angular@1.7.0(@angular-devkit/build-angular@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.14.10)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@ngtools/webpack@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.92.1(esbuild@0.21.5)))':
+  '@analogjs/vite-plugin-angular@1.7.1(@angular-devkit/build-angular@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.14.10)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@ngtools/webpack@18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.92.1(esbuild@0.21.5)))':
     dependencies:
       '@angular-devkit/build-angular': 18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@20.14.10)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4)
       '@ngtools/webpack': 18.1.4(@angular/compiler-cli@18.1.4(@angular/compiler@18.1.4(@angular/core@18.1.4(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.92.1(esbuild@0.21.5))
