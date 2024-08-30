@@ -46,8 +46,8 @@ importers:
         version: 0.15.0
     devDependencies:
       '@analogjs/vite-plugin-angular':
-        specifier: 1.7.2
-        version: 1.7.2(@angular-devkit/build-angular@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@ngtools/webpack@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.94.0(esbuild@0.23.0)))
+        specifier: 1.7.3
+        version: 1.7.3(@angular-devkit/build-angular@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@angular/build@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(less@4.2.0)(postcss@8.4.41)(terser@5.31.6)(typescript@5.5.4))
       '@angular-devkit/build-angular':
         specifier: ^18.2.2
         version: 18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4)
@@ -97,11 +97,16 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@analogjs/vite-plugin-angular@1.7.2':
-    resolution: {integrity: sha512-G9GORO8yFsbF9mRaOmuhV9Wi7daJ9xktFZtjMKUG5s8tAj+TANZoC0aP+Aa2Uh6k4mxfoZywG+4R3AtWFtjiRg==}
+  '@analogjs/vite-plugin-angular@1.7.3':
+    resolution: {integrity: sha512-+WdFazHVQHPCRFjMj4P6p6WGAT7Jmk82M9mqWs0U6EJmvQbV/DNXizB32/4r6zoP/FEaMKhnFnN4RNQ7BpKYJA==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-      '@ngtools/webpack': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      '@angular/build': ^18.0.0
+    peerDependenciesMeta:
+      '@angular-devkit/build-angular':
+        optional: true
+      '@angular/build':
+        optional: true
 
   '@angular-devkit/architect@0.1802.2':
     resolution: {integrity: sha512-LPRl9jhcf0NgshaL6RoUy1uL/cAyNt7oxctoZ9EHUu8eh5E9W/jZGhVowjOLpirwqYhmEzKJJIeS49Ssqs3RQg==}
@@ -4290,11 +4295,12 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@analogjs/vite-plugin-angular@1.7.2(@angular-devkit/build-angular@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@ngtools/webpack@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.94.0(esbuild@0.23.0)))':
+  '@analogjs/vite-plugin-angular@1.7.3(@angular-devkit/build-angular@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4))(@angular/build@18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(less@4.2.0)(postcss@8.4.41)(terser@5.31.6)(typescript@5.5.4))':
     dependencies:
-      '@angular-devkit/build-angular': 18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4)
-      '@ngtools/webpack': 18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.94.0(esbuild@0.23.0))
       ts-morph: 21.0.1
+    optionalDependencies:
+      '@angular-devkit/build-angular': 18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(karma@6.4.4)(typescript@5.5.4)
+      '@angular/build': 18.2.2(@angular/compiler-cli@18.2.2(@angular/compiler@18.2.2(@angular/core@18.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.3.0)(chokidar@3.6.0)(less@4.2.0)(postcss@8.4.41)(terser@5.31.6)(typescript@5.5.4)
 
   '@angular-devkit/architect@0.1802.2(chokidar@3.6.0)':
     dependencies:
