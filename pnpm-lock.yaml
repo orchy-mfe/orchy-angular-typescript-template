@@ -88,8 +88,8 @@ importers:
         specifier: 5.6.2
         version: 5.6.2
       vite:
-        specifier: ^5.4.7
-        version: 5.4.7(@types/node@22.3.0)(less@4.2.0)(sass@1.77.6)(terser@5.31.6)
+        specifier: ^5.4.8
+        version: 5.4.8(@types/node@22.3.0)(less@4.2.0)(sass@1.77.6)(terser@5.31.6)
 
 packages:
 
@@ -4097,8 +4097,8 @@ packages:
       terser:
         optional: true
 
-  vite@5.4.7:
-    resolution: {integrity: sha512-5l2zxqMEPVENgvzTuBpHer2awaetimj2BGkhBPdnwKbPNOlHsODU+oiazEZzLK7KhAnOrO+XGYJYn4ZlUhDtDQ==}
+  vite@5.4.8:
+    resolution: {integrity: sha512-FqrItQ4DT1NC4zCUqMB4c4AZORMKIa0m8/URVCZ77OZ/QSNeJ54bU1vrFADbDsuwfIPcgknRkmqakQcgnL4GiQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -8676,7 +8676,7 @@ snapshots:
       sass: 1.77.6
       terser: 5.31.6
 
-  vite@5.4.7(@types/node@22.3.0)(less@4.2.0)(sass@1.77.6)(terser@5.31.6):
+  vite@5.4.8(@types/node@22.3.0)(less@4.2.0)(sass@1.77.6)(terser@5.31.6):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.44
