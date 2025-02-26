@@ -46,8 +46,8 @@ importers:
         version: 0.15.0
     devDependencies:
       '@analogjs/vite-plugin-angular':
-        specifier: 1.13.1
-        version: 1.13.1(@angular-devkit/build-angular@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.7.3)(vite@6.2.0(@types/node@22.3.0)(jiti@1.21.6)(less@4.2.1)(sass@1.83.1)(terser@5.37.0)))(@angular/build@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(less@4.2.1)(postcss@8.4.49)(terser@5.37.0)(typescript@5.7.3))
+        specifier: 1.14.0
+        version: 1.14.0(@angular-devkit/build-angular@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.7.3)(vite@6.2.0(@types/node@22.3.0)(jiti@1.21.6)(less@4.2.1)(sass@1.83.1)(terser@5.37.0)))(@angular/build@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(less@4.2.1)(postcss@8.4.49)(terser@5.37.0)(typescript@5.7.3))
       '@angular-devkit/build-angular':
         specifier: ^19.1.8
         version: 19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.7.3)(vite@6.2.0(@types/node@22.3.0)(jiti@1.21.6)(less@4.2.1)(sass@1.83.1)(terser@5.37.0))
@@ -97,8 +97,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@analogjs/vite-plugin-angular@1.13.1':
-    resolution: {integrity: sha512-9+zd7K3Vur3UzSTu2PUdPMPrBD/JDOxz5TF2GzbqhdlWEdKL8odC7mnkKdCwzYFkcB+x9E8j4hPPpmXnMnY5Jg==}
+  '@analogjs/vite-plugin-angular@1.14.0':
+    resolution: {integrity: sha512-SNoDN3zjOlDtknfXqKX7RxR1kcnwJ0QI0Q6wzgMdCbP6re8przInF2i/2axmtYBmInPYorGwI5MmtoJeJZCg0A==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       '@angular/build': ^18.0.0 || ^19.0.0
@@ -4564,7 +4564,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@analogjs/vite-plugin-angular@1.13.1(@angular-devkit/build-angular@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.7.3)(vite@6.2.0(@types/node@22.3.0)(jiti@1.21.6)(less@4.2.1)(sass@1.83.1)(terser@5.37.0)))(@angular/build@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(less@4.2.1)(postcss@8.4.49)(terser@5.37.0)(typescript@5.7.3))':
+  '@analogjs/vite-plugin-angular@1.14.0(@angular-devkit/build-angular@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.7.3)(vite@6.2.0(@types/node@22.3.0)(jiti@1.21.6)(less@4.2.1)(sass@1.83.1)(terser@5.37.0)))(@angular/build@19.1.8(@angular/compiler-cli@19.1.7(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.1.7(@angular/core@19.1.7(rxjs@7.8.2)(zone.js@0.15.0)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(less@4.2.1)(postcss@8.4.49)(terser@5.37.0)(typescript@5.7.3))':
     dependencies:
       ts-morph: 21.0.1
       vfile: 6.0.3
