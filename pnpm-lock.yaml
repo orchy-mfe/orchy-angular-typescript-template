@@ -46,8 +46,8 @@ importers:
         version: 0.15.1
     devDependencies:
       '@analogjs/vite-plugin-angular':
-        specifier: 1.17.0
-        version: 1.17.0(1cd3add9bd928916a3df03163281f6de)
+        specifier: 1.17.1
+        version: 1.17.1(1cd3add9bd928916a3df03163281f6de)
       '@angular-devkit/build-angular':
         specifier: ^20.0.0
         version: 20.0.0(@angular/compiler-cli@20.0.0(@angular/compiler@20.0.0)(typescript@5.8.3))(@angular/compiler@20.0.0)(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.0.0(@angular/animations@20.0.0(@angular/common@20.0.0(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.0.0(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.0.0(@angular/compiler@20.0.0)(rxjs@7.8.2)(zone.js@0.15.1)))(@types/node@22.3.0)(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.8.3)(vite@6.3.5(@types/node@22.3.0)(jiti@1.21.6)(less@4.3.0)(sass@1.88.0)(terser@5.39.1))
@@ -97,8 +97,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@analogjs/vite-plugin-angular@1.17.0':
-    resolution: {integrity: sha512-z1Q8MC2VJgH1H9Itz0hmYKHmT/OkwDWO8KtWCTrEO27sqgeOAM/rHvUCJyWUdLhveQ/6jTV2rpBqoTE16d7DUQ==}
+  '@analogjs/vite-plugin-angular@1.17.1':
+    resolution: {integrity: sha512-t9bx62a33pBwscFY2j7ecOKskKu9ewr2KRoenJYQljMWgySu6mues+faZLl+fHE5ZWfcIGtawNLEJ89HzaRrIQ==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
       '@angular/build': ^18.0.0 || ^19.0.0 || ^20.0.0
@@ -4662,7 +4662,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@analogjs/vite-plugin-angular@1.17.0(1cd3add9bd928916a3df03163281f6de)':
+  '@analogjs/vite-plugin-angular@1.17.1(1cd3add9bd928916a3df03163281f6de)':
     dependencies:
       ts-morph: 21.0.1
       vfile: 6.0.3
