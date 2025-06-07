@@ -82,8 +82,8 @@ importers:
         specifier: ~2.1.0
         version: 2.1.0(jasmine-core@5.8.0)(karma-jasmine@5.1.0(karma@6.4.4))(karma@6.4.4)
       rollup-plugin-visualizer:
-        specifier: ^6.0.1
-        version: 6.0.1(rollup@4.40.2)
+        specifier: ^6.0.3
+        version: 6.0.3(rollup@4.40.2)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -3935,12 +3935,12 @@ packages:
     engines: {node: '>=14.18'}
     hasBin: true
 
-  rollup-plugin-visualizer@6.0.1:
-    resolution: {integrity: sha512-NjlGElvLXCSZSAi3gNRZbfX3qlQbQcJ9TW97c5JpqfVwMhttj9YwEdPwcvbKj91RnMX2PWAjonvSEv6UEYtnRQ==}
+  rollup-plugin-visualizer@6.0.3:
+    resolution: {integrity: sha512-ZU41GwrkDcCpVoffviuM9Clwjy5fcUxlz0oMoTXTYsK+tcIFzbdacnrr2n8TXcHxbGKKXtOdjxM2HUS4HjkwIw==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
-      rolldown: 1.x
+      rolldown: 1.x || ^1.0.0-beta
       rollup: 2.x || 3.x || 4.x
     peerDependenciesMeta:
       rolldown:
@@ -8650,7 +8650,7 @@ snapshots:
     dependencies:
       glob: 10.4.2
 
-  rollup-plugin-visualizer@6.0.1(rollup@4.40.2):
+  rollup-plugin-visualizer@6.0.3(rollup@4.40.2):
     dependencies:
       open: 8.4.1
       picomatch: 4.0.2
