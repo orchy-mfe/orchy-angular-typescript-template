@@ -88,8 +88,8 @@ importers:
         specifier: 5.8.3
         version: 5.8.3
       vite:
-        specifier: ^7.0.0
-        version: 7.0.0(@types/node@22.3.0)(jiti@1.21.6)(less@4.3.0)(sass@1.88.0)(terser@5.39.1)
+        specifier: ^7.0.1
+        version: 7.0.1(@types/node@22.3.0)(jiti@1.21.6)(less@4.3.0)(sass@1.88.0)(terser@5.39.1)
 
 packages:
 
@@ -4172,8 +4172,8 @@ packages:
       yaml:
         optional: true
 
-  vite@7.0.0:
-    resolution: {integrity: sha512-ixXJB1YRgDIw2OszKQS9WxGHKwLdCsbQNkpJN171udl6szi/rIySHL6/Os3s2+oE4P/FLD4dxg4mD7Wust+u5g==}
+  vite@7.0.1:
+    resolution: {integrity: sha512-BiKOQoW5HGR30E6JDeNsati6HnSPMVEKbkIWbCiol+xKeu3g5owrjy7kbk/QEMuzCV87dSUTvycYKmlcfGKq3Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -8781,7 +8781,7 @@ snapshots:
       sass: 1.88.0
       terser: 5.39.1
 
-  vite@7.0.0(@types/node@22.3.0)(jiti@1.21.6)(less@4.3.0)(sass@1.88.0)(terser@5.39.1):
+  vite@7.0.1(@types/node@22.3.0)(jiti@1.21.6)(less@4.3.0)(sass@1.88.0)(terser@5.39.1):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
