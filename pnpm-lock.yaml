@@ -46,8 +46,8 @@ importers:
         version: 0.15.1
     devDependencies:
       '@analogjs/vite-plugin-angular':
-        specifier: 1.19.3
-        version: 1.19.3(60ebd6a81ed484780312bc99cee36a5a)
+        specifier: 1.19.4
+        version: 1.19.4(60ebd6a81ed484780312bc99cee36a5a)
       '@angular-devkit/build-angular':
         specifier: ^20.1.4
         version: 20.1.4(@angular/compiler-cli@20.1.4(@angular/compiler@20.1.4)(typescript@5.9.2))(@angular/compiler@20.1.4)(@angular/core@20.1.4(@angular/compiler@20.1.4)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.1.4(@angular/animations@20.1.4(@angular/common@20.1.4(@angular/core@20.1.4(@angular/compiler@20.1.4)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.4(@angular/compiler@20.1.4)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.1.4(@angular/core@20.1.4(@angular/compiler@20.1.4)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.1.4(@angular/compiler@20.1.4)(rxjs@7.8.2)(zone.js@0.15.1)))(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.9.2)
@@ -149,8 +149,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@analogjs/vite-plugin-angular@1.19.3':
-    resolution: {integrity: sha512-2rvK1pR6qY886XLjmHxUh6gj8qWQ3iLGdM5hWTKkLhRmNdnidTHG3QhDIsZfcWkTQ2Jpl7qk7M0HCXVMKF97Mw==}
+  '@analogjs/vite-plugin-angular@1.19.4':
+    resolution: {integrity: sha512-DqGFF4Y+WDcXLcgi7dse9Ljvqy6F4mg79MKGAjjCOf5ujJyVp9bzjj/57Tch5p0t7j7cYCYT7PW/UGw3PcHYmg==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
       '@angular/build': ^18.0.0 || ^19.0.0 || ^20.0.0
@@ -4666,7 +4666,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.12
       '@jridgewell/trace-mapping': 0.3.29
 
-  '@analogjs/vite-plugin-angular@1.19.3(60ebd6a81ed484780312bc99cee36a5a)':
+  '@analogjs/vite-plugin-angular@1.19.4(60ebd6a81ed484780312bc99cee36a5a)':
     dependencies:
       ts-morph: 21.0.1
       vfile: 6.0.3
