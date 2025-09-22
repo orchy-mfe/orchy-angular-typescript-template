@@ -88,8 +88,8 @@ importers:
         specifier: 5.9.2
         version: 5.9.2
       vite:
-        specifier: ^7.1.6
-        version: 7.1.6(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)
+        specifier: ^7.1.7
+        version: 7.1.7(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)
 
 packages:
 
@@ -4399,6 +4399,7 @@ packages:
 
   ua-parser-js@0.7.32:
     resolution: {integrity: sha512-f9BESNVhzlhEFf2CHMSj40NWOjYPl1YKYbrvIr/hFTDEmLq7SRbWvm7FcdcpCYT95zrOhC7gZSxjdnnTpBcwVw==}
+    deprecated: You are using an outdated version of ua-parser-js. Please update to ua-parser-js v0.7.33 / v1.0.33 / v2.0.0 (or later) to avoid ReDoS vulnerability [CVE-2022-25927](https://github.com/advisories/GHSA-fhg7-m89q-25r3)
 
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
@@ -4526,8 +4527,8 @@ packages:
       yaml:
         optional: true
 
-  vite@7.1.6:
-    resolution: {integrity: sha512-SRYIB8t/isTwNn8vMB3MR6E+EQZM/WG1aKmmIUCfDXfVvKfc20ZpamngWHKzAmmu9ppsgxsg4b2I7c90JZudIQ==}
+  vite@7.1.7:
+    resolution: {integrity: sha512-VbA8ScMvAISJNJVbRDTJdCwqQoAareR/wutevKanhR2/1EkoXVZVkkORaYm/tNVCjP/UDTKtcw3bAkwOUdedmA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -9564,7 +9565,7 @@ snapshots:
       sass: 1.90.0
       terser: 5.43.1
 
-  vite@7.1.6(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
+  vite@7.1.7(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
