@@ -88,8 +88,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       vite:
-        specifier: ^7.1.9
-        version: 7.1.9(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)
+        specifier: ^7.1.10
+        version: 7.1.10(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)
 
 packages:
 
@@ -4499,8 +4499,8 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
-  vite@7.1.5:
-    resolution: {integrity: sha512-4cKBO9wR75r0BeIWWWId9XK9Lj6La5X846Zw9dFfzMRw38IlTk2iCcUt6hsyiDRcPidc55ZParFYDXi0nXOeLQ==}
+  vite@7.1.10:
+    resolution: {integrity: sha512-CmuvUBzVJ/e3HGxhg6cYk88NGgTnBoOo7ogtfJJ0fefUWAxN/WDSUa50o+oVBxuIhO8FoEZW0j2eW7sfjs5EtA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4539,8 +4539,8 @@ packages:
       yaml:
         optional: true
 
-  vite@7.1.9:
-    resolution: {integrity: sha512-4nVGliEpxmhCL8DslSAUdxlB6+SMrhB0a1v5ijlh1xB1nEPuy1mxaHxysVucLHuWryAxLWg6a5ei+U4TLn/rFg==}
+  vite@7.1.5:
+    resolution: {integrity: sha512-4cKBO9wR75r0BeIWWWId9XK9Lj6La5X846Zw9dFfzMRw38IlTk2iCcUt6hsyiDRcPidc55ZParFYDXi0nXOeLQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -9567,7 +9567,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@7.1.5(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
+  vite@7.1.10(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
@@ -9582,7 +9582,7 @@ snapshots:
       sass: 1.90.0
       terser: 5.43.1
 
-  vite@7.1.9(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
+  vite@7.1.5(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
