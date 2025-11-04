@@ -46,8 +46,8 @@ importers:
         version: 0.15.1
     devDependencies:
       '@analogjs/vite-plugin-angular':
-        specifier: 1.22.5
-        version: 1.22.5(8c252d1c242c4df5749b1c5aee520eb2)
+        specifier: 2.0.1
+        version: 2.0.1(8c252d1c242c4df5749b1c5aee520eb2)
       '@angular-devkit/build-angular':
         specifier: ^20.3.8
         version: 20.3.8(@angular/compiler-cli@20.3.9(@angular/compiler@20.3.9)(typescript@5.9.3))(@angular/compiler@20.3.9)(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.9(@angular/animations@20.3.9(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.9(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1)))(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.9.3)
@@ -153,8 +153,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@analogjs/vite-plugin-angular@1.22.5':
-    resolution: {integrity: sha512-N1BQD6HQSp2Imbb1fThymskWFSLq0ZF+d2fe3DgErwlBFf6SzRp++iFltddQc3wIzenTXE+5brS4fAPXO8UT9g==}
+  '@analogjs/vite-plugin-angular@2.0.1':
+    resolution: {integrity: sha512-qslyahoB4oFiUd8uV0ANF+cwyZzXOe+FUFUlDyhsvB6NQ5ZWoyO+ZhwADgA1m4STpYiVUph6bqvQ4Mgf9ckMmQ==}
     peerDependencies:
       '@angular-devkit/build-angular': ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0
       '@angular/build': ^18.0.0 || ^19.0.0 || ^20.0.0
@@ -1908,9 +1908,6 @@ packages:
 
   '@types/trusted-types@2.0.2':
     resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
-
-  '@types/unist@3.0.3':
-    resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
   '@types/ws@8.5.10':
     resolution: {integrity: sha512-vmQSUcfalpIq0R9q7uTo2lXs6eGIpt9wtnLdMv9LVpIjCA/+ufZRozlVoVelIYixx1ugCBKDhn89vnsEGOCx9A==}
@@ -4451,9 +4448,6 @@ packages:
     resolution: {integrity: sha512-9OdaqO5kwqR+1kVgHAhsp5vPNU0hnxRa26rBFNfNgM7M6pNtgzeBn3s/xbyCQL3dcjzOatcef6UUHpB/6MaETg==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
-  unist-util-stringify-position@4.0.0:
-    resolution: {integrity: sha512-0ASV06AAoKCDkS2+xw5RXJywruurpbC4JZSm7nr7MOt1ojAzvyyaO+UxZf18j8FCF6kmzCZKcAgN/yu2gm2XgQ==}
-
   universalify@0.1.2:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
     engines: {node: '>= 4.0.0'}
@@ -4492,12 +4486,6 @@ packages:
   vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
-
-  vfile-message@4.0.2:
-    resolution: {integrity: sha512-jRDZ1IMLttGj41KcZvlrYAaI3CfqpLpfpf+Mfig13viT6NKvRzWZ+lXz0Y5D60w6uJIBAOGq9mSHf0gktF0duw==}
-
-  vfile@6.0.3:
-    resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
   vite@7.1.11:
     resolution: {integrity: sha512-uzcxnSDVjAopEUjljkWh8EIrg6tlzrjFUfMcR1EVsRDGwf/ccef0qQPRyOrROwhrTDaApueq+ja+KLPlzR/zdg==}
@@ -4868,10 +4856,9 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.12
       '@jridgewell/trace-mapping': 0.3.29
 
-  '@analogjs/vite-plugin-angular@1.22.5(8c252d1c242c4df5749b1c5aee520eb2)':
+  '@analogjs/vite-plugin-angular@2.0.1(8c252d1c242c4df5749b1c5aee520eb2)':
     dependencies:
       ts-morph: 21.0.1
-      vfile: 6.0.3
     optionalDependencies:
       '@angular-devkit/build-angular': 20.3.8(@angular/compiler-cli@20.3.9(@angular/compiler@20.3.9)(typescript@5.9.3))(@angular/compiler@20.3.9)(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.9(@angular/animations@20.3.9(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.9(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1)))(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(typescript@5.9.3)
       '@angular/build': 20.3.8(@angular/compiler-cli@20.3.9(@angular/compiler@20.3.9)(typescript@5.9.3))(@angular/compiler@20.3.9)(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.9(@angular/animations@20.3.9(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.9(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.9(@angular/compiler@20.3.9)(rxjs@7.8.2)(zone.js@0.15.1)))(chokidar@4.0.1)(jiti@1.21.6)(karma@6.4.4)(less@4.4.0)(postcss@8.5.6)(terser@5.43.1)(tslib@2.8.1)(typescript@5.9.3)
@@ -6661,8 +6648,6 @@ snapshots:
       '@types/node': 22.3.0
 
   '@types/trusted-types@2.0.2': {}
-
-  '@types/unist@3.0.3': {}
 
   '@types/ws@8.5.10':
     dependencies:
@@ -9524,10 +9509,6 @@ snapshots:
     dependencies:
       imurmurhash: 0.1.4
 
-  unist-util-stringify-position@4.0.0:
-    dependencies:
-      '@types/unist': 3.0.3
-
   universalify@0.1.2: {}
 
   unpipe@1.0.0: {}
@@ -9556,16 +9537,6 @@ snapshots:
   validate-npm-package-name@6.0.0: {}
 
   vary@1.1.2: {}
-
-  vfile-message@4.0.2:
-    dependencies:
-      '@types/unist': 3.0.3
-      unist-util-stringify-position: 4.0.0
-
-  vfile@6.0.3:
-    dependencies:
-      '@types/unist': 3.0.3
-      vfile-message: 4.0.2
 
   vite@7.1.11(jiti@1.21.6)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
     dependencies:
