@@ -61,8 +61,8 @@ importers:
         specifier: ^0.3.0
         version: 0.3.0
       '@types/jasmine':
-        specifier: ~5.1.14
-        version: 5.1.14
+        specifier: ~5.1.15
+        version: 5.1.15
       jasmine-core:
         specifier: ~5.13.0
         version: 5.13.0
@@ -2049,8 +2049,8 @@ packages:
   '@types/http-proxy@1.17.15':
     resolution: {integrity: sha512-25g5atgiVNTIv0LBDTg1H74Hvayx0ajtJPLLcYE3whFv75J0pWNtOBzaXJQgDTmrX1bx5U9YC2w/n65BN1HwRQ==}
 
-  '@types/jasmine@5.1.14':
-    resolution: {integrity: sha512-16bJdpgUPNKXuaelVxuLZUeDd02+PnF0aQd5HY4xLWoUOMoRE+CyNkRpjRMIcPBCR1dscSb52pmFNILAN1uzkw==}
+  '@types/jasmine@5.1.15':
+    resolution: {integrity: sha512-ZAC8KjmV2MJxbNTrwXFN+HKeajpXQZp6KpPiR6Aa4XvaEnjP6qh23lL/Rqb7AYzlp3h/rcwDrQ7Gg7q28cQTQg==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -6919,7 +6919,7 @@ snapshots:
     dependencies:
       '@types/node': 22.3.0
 
-  '@types/jasmine@5.1.14': {}
+  '@types/jasmine@5.1.15': {}
 
   '@types/json-schema@7.0.15': {}
 
